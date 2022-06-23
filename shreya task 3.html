@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORIGIN ACADEMY</title>
+    <style>
+        .container{
+            width: 900px;
+            border: 3px solid yellow;
+            margin: auto;
+            background: rgb(95, 111, 158);
+            
+            
+        }
+        .item{
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(104, 175, 90);
+            
+        }
+        #music{
+            box-sizing: border box;
+            display: inline-block;
+            width: 50%;
+            padding: 23px;
+            
+          
+           
+        }
+
+        #dance{
+            box-sizing: border box;
+            display: inline-block;
+            width: 50%;
+            padding: 23px;
+            
+            
+            
+        }
+        .btn{
+           
+           font-size: 13px;
+           border-radius: 4px;
+        }
+        .navbar{
+           background-color: black;
+        }
+        .navbar li{
+            float: left;
+        
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 4px;
+            padding: 3px 4px;
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+        img{
+           width:134px;
+        }
+        .box{
+            display: inline-block;
+            border: 2px solid brown;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+        #box1{visibility: hidden;
+            background-color: green;}
+        #box2{position: fixed;
+            right: 4px;
+            bottom: 2px;
+            height: 50px;
+            width: 50px;
+            border-radius: 4px;
+            background-color: rebeccapurple;
+        }
+
+        .fle{
+            height: 544px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-content: space-around;
+        }
+        .flex{
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            border: 2px solid green;
+            margin: 10px;
+            padding: 3px;
+            justify-content: center;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>ORIGIN ACADEMY</h1>
+    <header>
+        
+        
+        <nav class="navbar">
+            <ul>
+               <li><a href="https://facebook.com">HOME</a></li>
+               <li><a href="https://facebook.com">MENU</a></li>
+               <li><a href="https://facebook.com">ABOUT US</a></li>
+               <li><a href="https://facebook.com">CONTACT US</a></li>
+               <div class="search">
+                <input type="text" name="search" id="search" placeholder="search this website">
+               </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="music" class="item">
+            <h3>MUSIC</h3>
+            <p id="musicpara" class="para">music is an arrangement of sounds having melody,rytym and harmony</p>
+            <img src="https://www.istockphoto.com/photos/music" alt="not available">
+            <p>for more information refer the academy</p>
+            <a href="https://facebook.com" class="btn">read more</a></a>
+            <button class="btn">contact us</button>
+
+        </div>
+
+        <div id="dance" class="item">
+            <h3>DANCE</h3>
+            <p id="dancepara" class="para">dance is a performing art form consisting of sequences of movement purposefully selected</p>
+            <img src="https://www.pinterest.com/pin/430445676854275490/" alt="not available">
+            <p>for any query contacy us</p>
+            <a href="https://yahoo.com" class="btn">read more</a></a>
+            <button class="btn">contact us</button>
+        </div>
+    </div>
+    <h3>events</h3>
+    <div class="events">
+        <div class="box" id="box"><img src="https://qz.com/1764294/how-dance-fights-depression-parkinsons-and-other-brain-disease/" alt="interstate competitions"></div>
+        <div class="box" id="box2">chat with us</div>
+        <div class="box" id="box3">events</div>
+        
+    </div>
+    <div class="fle">
+        <div class="flex" id="flex1">1</div>
+        <div class="flex" id="flex2">2</div>
+        <div class="flex" id="flex3">3</div>
+
+    </div>
+</body>
+</html>
